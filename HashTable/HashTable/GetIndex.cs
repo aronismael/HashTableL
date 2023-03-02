@@ -14,7 +14,7 @@ namespace HashTable
         public static Dictionary<int, NodoLista> hashtableWords = new Dictionary<int, NodoLista>();
         public static int SumaAscii=0;
 
-        public void GetMod(List<string> ListNombre)
+        public Dictionary<int, NodoLista> GetMod(List<string> ListNombre)
         {
             NombreObtenidos.AddRange(ListNombre);
 
@@ -42,16 +42,18 @@ namespace HashTable
 
                 if (nodo != null)
                 {
-                    hashtableWords[(SumaAscii / Nombre.Length) % Nombre.Length]=GetLastNode(nodo, Nombre);
+                    hashtableWords[SumaAscii % Nombre.Length] =GetLastNode(nodo, Nombre);
                 }
                 else 
                 {
                     nodo = new NodoLista();
                     nodo.valor = Nombre;
-                    hashtableWords[(SumaAscii / Nombre.Length) % Nombre.Length] = nodo;
+                    hashtableWords[SumaAscii % Nombre.Length] = nodo;
                 }
 
-            }            
+            }
+
+            return hashtableWords;
         }
 
         public static NodoLista GetLastNode(NodoLista nodo, string NewValue)

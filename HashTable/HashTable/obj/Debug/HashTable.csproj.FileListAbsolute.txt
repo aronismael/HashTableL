@@ -5,3 +5,10 @@ C:\Users\Compaq\source\repos\HashTable\HashTable\obj\Debug\HashTable.csproj.Asse
 C:\Users\Compaq\source\repos\HashTable\HashTable\obj\Debug\HashTable.csproj.CoreCompileInputs.cache
 C:\Users\Compaq\source\repos\HashTable\HashTable\obj\Debug\HashTable.exe
 C:\Users\Compaq\source\repos\HashTable\HashTable\obj\Debug\HashTable.pdb
+C:\Users\Compaq\Documents\HashTableL\HashTable\HashTable\bin\Debug\HashTable.exe.config
+C:\Users\Compaq\Documents\HashTableL\HashTable\HashTable\bin\Debug\HashTable.exe
+C:\Users\Compaq\Documents\HashTableL\HashTable\HashTable\bin\Debug\HashTable.pdb
+C:\Users\Compaq\Documents\HashTableL\HashTable\HashTable\obj\Debug\HashTable.csproj.AssemblyReference.cache
+C:\Users\Compaq\Documents\HashTableL\HashTable\HashTable\obj\Debug\HashTable.csproj.CoreCompileInputs.cache
+C:\Users\Compaq\Documents\HashTableL\HashTable\HashTable\obj\Debug\HashTable.exe
+C:\Users\Compaq\Documents\HashTableL\HashTable\HashTable\obj\Debug\HashTable.pdb

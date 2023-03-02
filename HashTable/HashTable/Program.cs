@@ -11,6 +11,7 @@ namespace HashTable
         static void Main(string[] args)
         {
             SolicitarDatos.GetDatos();
+
             Console.ReadKey();
         }
     }

@@ -60,7 +60,7 @@ namespace HashTable
                 if (!OtherName)
                 {
                     GetIndex GetMod = new GetIndex();
-                    GetMod.GetMod(Nombres);
+                    Dictionary<int, NodoLista> hashtableWords = GetMod.GetMod(Nombres);
                 }
             }
             catch (Exception e)
