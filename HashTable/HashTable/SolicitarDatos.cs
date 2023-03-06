@@ -61,6 +61,12 @@ namespace HashTable
                 {
                     GetIndex GetMod = new GetIndex();
                     Dictionary<int, NodoLista> hashtableWords = GetMod.GetMod(Nombres);
+
+                    Console.Clear();
+
+                    LecturaDictionary ReadingDictionary = new LecturaDictionary(hashtableWords);
+
+                    Console.ReadKey();
                 }
             }
             catch (Exception e)

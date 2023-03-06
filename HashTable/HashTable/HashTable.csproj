@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GetIndex.cs" />
+    <Compile Include="LecturaDictionary.cs" />
     <Compile Include="NodoLista.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
