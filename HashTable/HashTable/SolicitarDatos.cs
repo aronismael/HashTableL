@@ -23,7 +23,7 @@ namespace HashTable
             {
                 Console.WriteLine("Escribe 1 para colocar mas, escribe 0 para no colocar mas elementos\n");               
 
-                while (OtherName) //hola
+                while (OtherName)
                 {
 
                     if (!FirstTime)
@@ -68,6 +68,7 @@ namespace HashTable
                 Console.WriteLine("Escriebe el nombre con caracteres alfabeticos");
                 GetDatos();
             }
+
         }
     }
 }

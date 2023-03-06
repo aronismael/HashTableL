@@ -38,17 +38,17 @@ namespace HashTable
                 //Console.WriteLine((SumaAscii / Nombre.Length) % Nombre.Length);
                 //Console.WriteLine((SumaAscii / Nombre.Length));
 
-                nodo = hashtableWords.ContainsKey(SumaAscii % Nombre.Length) ? hashtableWords[SumaAscii % Nombre.Length] : null ;
+                nodo = hashtableWords.ContainsKey(SumaAscii % 10) ? hashtableWords[SumaAscii % 10] : null ;
 
                 if (nodo != null)
                 {
-                    hashtableWords[SumaAscii % Nombre.Length] =GetLastNode(nodo, Nombre);
+                    hashtableWords[SumaAscii % 10] =GetLastNode(nodo, Nombre);
                 }
                 else 
                 {
                     nodo = new NodoLista();
                     nodo.valor = Nombre;
-                    hashtableWords[SumaAscii % Nombre.Length] = nodo;
+                    hashtableWords[SumaAscii % 10] = nodo;
                 }
 
             }
